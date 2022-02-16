@@ -326,6 +326,12 @@ controller:
                   id: "test-cred"
                   scope: GLOBAL
                   secret: ${test-secret-username}
+              - usernamePassword:
+                  description: "this is a description wow"
+                  id: "special-secret"
+                  scope: GLOBAL
+                  username: ${special-test-secret-special-one}
+                  password: ${special-test-secret-special-two}
     #  welcome-message: |
     #    jenkins:
     #      systemMessage: Welcome to our CI\CD server.  This Jenkins is configured and managed 'as code'.
