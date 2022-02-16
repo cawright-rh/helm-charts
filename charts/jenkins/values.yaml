@@ -281,6 +281,10 @@ controller:
   additionalExistingSecrets: 
     - name: test-secret
       keyName: username
+    - name: special-test-secret
+      keyName: special-one
+    - name: special-test-secret
+      keyName: special-two
   #  - name: secret-name-1
   #    keyName: password
 
